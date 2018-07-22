@@ -6,12 +6,10 @@ namespace Dushy;
 use pocketmine\plugin\PluginBase;
 
 //Für Münzen
-use pocketmine\event\Listeners;
-use pocketmine\Player;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 
-class Coins extends PluginBase implements Listeners {
+class Coins extends PluginBase {
 	
 	public $prefix = "§7[§eMünzen§7]";
 	
@@ -51,27 +49,4 @@ class Coins extends PluginBase implements Listeners {
             return true;
         }
      }
-  
-  class API implements Listeners {
-    
-    public static function addPlayer(string $name){
-        
-    }
-    
-    public static function getCoins(string $player): int{
-        
-    }
-    
-    public static function setCoins(string $player, int $coins){
-        
-    }
-    
-    public static function addCoins(string $player, int $coins){
-        
-    }
-    
-    public static function removeCoins(string $player, int $coins){
-        
-     }    
   }
-}
