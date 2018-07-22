@@ -51,7 +51,6 @@ class Coins extends PluginBase implements Listeners {
             return true;
         }
      }
-  }
   
   class API implements Listeners {
     
