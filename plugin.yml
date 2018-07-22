@@ -7,4 +7,4 @@ api: 4.0.0
 commands:
      coins:
 	       usage: "/coins <add-remove-set>"
-           description: MünzenSystem
+           description: MuenzenSystem
