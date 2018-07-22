@@ -3,7 +3,8 @@ main: Dushy/Coins
 author: xEchtesPhantom
 version: 1.0.0
 api: 4.0.0
+
 commands:
      coins:
 	       usage: "/coins <add-remove-set>"
-         description: MünzenSystem
+           description: MünzenSystem
